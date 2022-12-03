@@ -1,6 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\main.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Security.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{bc5e7317-8cbb-4b8f-8b19-cae6df860ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hearers">
+      <UniqueIdentifier>{4a8ee6d5-fe52-48c9-bf17-8fb0125e64a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Menu.h">
+      <Filter>hearers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Security.h">
+      <Filter>hearers</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
